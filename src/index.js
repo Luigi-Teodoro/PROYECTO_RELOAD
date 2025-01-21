@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 
 const app = express();
 
-app.__dirname = dirname(fileURLToPath(import.meta.url));
+const __dirname = dirname(fileURLToPath(import.meta.url));
 app.set('views', join(__dirname , 'views'));
 app.set('view engine', 'ejs');
 app.get('/' , (req,res) => res.render ('index'));
