@@ -10,5 +10,5 @@ app.set('views', join(__dirname , 'views'));
 app.set('view engine', 'ejs');
 app.set('/' , (req , res )=> ('index'));
 app.listen(3000)
-console.log('server is running on port 3000');
+console.log('server is running on http://localhost:3000');
 
