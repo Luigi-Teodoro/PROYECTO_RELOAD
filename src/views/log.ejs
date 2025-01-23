@@ -3,31 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reload Registro</title>
-    <%- include('partials/head') %>
+    <title>Reload Login</title>
 
 </head>
-<%- include('partials/navigation') %>
 <body>
     <header>
         <h1>RELOAD</h1>
     </header>
-    <div class="register-container">
+    <div class="login-container">
         <div class="header">
-            <h1>Empieza a utilizar Reload.</h1>
+            <h1>¡Bienvenido!</h1>
         </div>
-        <div class="ask-text">
-            <p>¿Ya tienes una cuenta?<a href="login">Inicia sesión</a>
+        <div class="welcome-text">
+            <p>¡Genial! ¡Has vuelto! Gracias por comprar con nosotros. Tenemos ofertas y promociones interesantes, ¡elige la tuya ahora!</p>
         </div>
-        <form class="register-form">
-            <h3>REGISTRO</h3>
-            <div class="form-group">
-                <label for="email">Nombre completo</label>
-                <div class="input-wrapper">
-                    <span class="icon">👤</span>
-                    <input type="name" id="name" placeholder="Ingrese su nombre" required>
-                </div>
-            </div>
+        <form class="login-form">
+            <h3>INICIAR SESIÓN</h3>
             <div class="form-group">
                 <label for="email">Correo electrónico</label>
                 <div class="input-wrapper">
@@ -42,10 +33,16 @@
                     <input type="password" id="password" placeholder="Ingrese su contraseña" required>
                 </div>
             </div>
-            <button type="submit" class="register-button">REGISTRAR</button>
+            <div class="form-options">
+                <label>
+                    <input type="checkbox" id="remember"> Recordarme
+                </label>
+                <a href="#" class="forgot-password">¿Has olvidado tu contraseña?</a>
+            </div>
+            <button type="submit" class="login-button">INGRESAR</button>
         </form>
-        <div class="terms">
-            Al unime acepto recibir correos electrónicos de Reload
+        <div class="register-link">
+            ¿Aún no estás registrado? <a href="register">Crea una cuenta</a>
         </div>
     </div>
 </body>
