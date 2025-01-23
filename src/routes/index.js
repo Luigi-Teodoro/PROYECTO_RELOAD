@@ -8,5 +8,7 @@ router.get('/contact', (req, res) => res.render('contactanos', {title:'Contactan
 router.get('/login', (req, res) => res.render('login', {title:'login'}));
 router.get('/register', (req, res) => res.render('register', {title:'Registro'}));
 router.get('/informacion', (req, res) => res.render('sobre_nosotros', {title:'Nosotros'}));
+router.get('/infochaqueta', (req, res) => res.render('info_chaqueta', {title:'Chaqueta'}));
+
 
 export default router;
