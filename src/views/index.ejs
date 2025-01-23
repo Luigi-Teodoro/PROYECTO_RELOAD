@@ -1,12 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reload</title>
+    <link rel="stylesheet" href="/main.css">
 </head>
 <body>
     <%- include('partials/navigation') %>
-    <h1>Reload</h1>
+    <main>
+        <h1>Reload</h1>
+        <section class="hero">
+            <h2>Bienvenido a la mejor tienda de ropa formal</h2>
+            <p>Encuentra los mejores trajes y vestidos para cualquier ocasión.</p>
+        </section>
+        <section class="products">
+            <h2>Nuestros Productos</h2>
+            <div class="product">
+                <img src="traje.jpg" alt="Traje Formal">
+                <h3>Traje Formal</h3>
+                <p>Precio: $200</p>
+            </div>
+            <div class="product">
+                <img src="vestido.jpg" alt="Vestido Elegante">
+                <h3>Vestido Elegante</h3>
+                <p>Precio: $150</p>
+            </div>
+            <!-- Agrega más productos según sea necesario -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Tienda de Ropa Formal. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>

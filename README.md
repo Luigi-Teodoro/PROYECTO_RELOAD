@@ -19,11 +19,11 @@ Este es un proyecto básico que utiliza Express.js.
     ```
 3. Instala las dependencias:
     ```sh
-    npm install
+    npm i
     ```
 
 ## Uso
 
 Para iniciar el servidor, ejecuta el siguiente comando:
 ```sh
-npm start
+npm run dev
