@@ -5,48 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reload</title>
     <%- include('partials/head') %>
+    <link rel="stylesheet" href="/css/cards.css">
+    <link rel="stylesheet" href="/css/custom.css">
 </head>
 <%- include('partials/navigation') %>
 
 <body>
     <main>
         <section class="hero">
-            <h2>Las mejores prendas</h2>
         </section>
-        <section class="products">
-            <div class="card">
-                <img src="/img/chaqueta.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">The North Face Chamarra Deportiva</h5>
-                  <p class="card-text">Diseñada para acompañarte en todas tus aventuras 
-                  </p>
-                  <p>S/279.92</p>
-                  <a href="/infochaqueta" class="btn btn-primary">Mas informacion</a>
+        <section class="products container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="/img/chaqueta.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">The North Face Chamarra Deportiva</h5>
+                            <p class="card-text">Diseñada para acompañarte en todas tus aventuras</p>
+                            <p>S/279.92</p>
+                            <a href="/infochaqueta" class="btn btn-primary">Mas informacion</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+                <!-- Añade más tarjetas aquí -->
             </div>
         </section>
     </main>
