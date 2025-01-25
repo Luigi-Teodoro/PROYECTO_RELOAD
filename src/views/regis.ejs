@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reload Registro</title>
+    <link rel="stylesheet" href="register.css">
     <%- include('partials/head') %>
 
 
 </head>
-<%- include('partials/navigation') %>
-
 <body>
+    <nav>
+        <%- include('partials/navigation') %>
+    </nav>
     <header>
         <h1>RELOAD</h1>
     </header>
@@ -19,12 +21,12 @@
             <h1>Empieza a utilizar Reload.</h1>
         </div>
         <div class="ask-text">
-            <p>¿Ya tienes una cuenta?<a href="login">Inicia sesión</a>
+            <p>¿Ya tienes una cuenta?<a href="login">Inicia sesión</a></p>
         </div>
         <form class="register-form">
             <h3>REGISTRO</h3>
             <div class="form-group">
-                <label for="email">Nombre completo</label>
+                <label for="name">Nombre completo</label>
                 <div class="input-wrapper">
                     <span class="icon">👤</span>
                     <input type="name" id="name" placeholder="Ingrese su nombre" required>
@@ -47,7 +49,7 @@
             <button type="submit" class="register-button">REGISTRAR</button>
         </form>
         <div class="terms">
-            Al unime acepto recibir correos electrónicos de Reload
+            Al unirme acepto recibir correos electrónicos de Reload
         </div>
     </div>
 </body>
